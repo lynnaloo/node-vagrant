@@ -23,7 +23,7 @@ This allows developers to begin writing code without worrying about how to insta
   - Choose "next" through any additional steps to complete the Git for Windows install.
   - Open the Windows Command Prompt as **Administrator**
 
-### Get the Code ###  
+### Get the Code 
 
 [Fork](http://github.com/lynnaloo/node-vagrant) the `node-vagrant` repository on Github.
 
