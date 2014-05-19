@@ -40,10 +40,6 @@ Once you `cd` into the node-vagrant directory, you will find a "Vagrantfile" whi
 the necessary instructions and provisioning to setup your development virtual machine. All Vagrant commands
 should be performed in this directory with your Vagrantfile.
 
-### Install VirtualBox Guest Additions Plugin
-
-    vagrant plugin install vagrant-vbguest
-
 ### Connect to the Virtual Machine ###
 
 Start the virtual machine:
