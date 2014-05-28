@@ -54,4 +54,4 @@ Connect to the virtual machine via ssh:
   to a `dev` folder adjacent to your Vagrantfile on your host machine. This allows for editing code
   on your host machine and having it immediately available inside of the virtual machine.
 
-You can now begin writing code and running it with Node.js! In the `dev` folder, create a new JavaScript `hello.js` file with some code `console.log('Hello World');`. Test using Node by running `node hello.js`.
+You can now begin writing code and running it with Node.js! In the `dev` folder, create a new JavaScript `hello.js` file with some code `console.log('Hello World');`. Open your terminal and run `node hello.js` from the `dev` folder.
