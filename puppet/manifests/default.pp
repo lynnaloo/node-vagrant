@@ -8,7 +8,7 @@ file { '/etc/motd':
 
   Node Development Virtual Machine
 
-- OS:      Ubuntu 12.04
+- OS:      Ubuntu 14.04
 - Node:    ${node_version}
 - IP:      192.168.33.20
 
