@@ -4,20 +4,10 @@
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
-# This is where you cloned the mean repository
-source = "../mean"
-
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  # All Vagrant configuration is done here. The most common configuration
-  # options are documented and commented below. For a complete reference,
-  # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "hashicorp/precise64"
-
-  # The url from where the 'config.vm.box' box will be fetched if it
-  # doesn't already exist on the user's system.
-  #config.vm.box_url = "https://vagrantcloud.com/hashicorp/precise64/version/2/provider/virtualbox.box"
+  config.vm.box = "ubuntu/trusty64"
 
   config.vm.hostname = "node-vagrant-machine"
 
@@ -25,7 +15,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 3000, host: 3000
   # Add port-forward for Node-inspector
   config.vm.network "forwarded_port", guest: 5858, host: 5858
-  # Add port-forward for Node Workshop
+  # Add port-forward for Sails.js apps
   config.vm.network "forwarded_port", guest: 1337, host: 1337
 
   # Create a private network, which allows host-only access to the machine
