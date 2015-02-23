@@ -1,6 +1,6 @@
 # Inspired by https://github.com/TryGhost/Ghost-Vagrant/blob/master/manifests/base.pp
 
-$node_version = "v0.10.26"
+$node_version = "v0.12.0"
 
 file { '/etc/motd':
 	content => "
