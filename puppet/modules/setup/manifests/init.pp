@@ -1,4 +1,4 @@
-class setup($node_version = "v0.12.0") {
+class setup($node_version = "v0.12.7") {
   # Add some default path values
   Exec { path => ['/usr/local/bin','/usr/local/sbin','/usr/bin/','/usr/sbin','/bin','/sbin', "/home/vagrant/nvm/${node_version}/bin"], }
 
